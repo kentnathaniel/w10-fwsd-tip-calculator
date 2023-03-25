@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Space Mono";
+  src: local("Space Mono"), url("./SpaceMono-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Space Mono", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #c5e4e7;
+}
+
+button,
+input {
+  font-family: "Space Mono", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
